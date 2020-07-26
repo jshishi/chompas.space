@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chompas</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- all css links -->
+     <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+     <link href="bootstrap-reboot.css" rel="stylesheet" type="text/css" />
+     <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+     <link href="style.css" rel="stylesheet" type="text/css" />
+     <link href="map.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <script src="map.js"></script>
+
+<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color:#FE5F55;">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="index.html">Chompas <img src="chompas logo.png" style="width:30px;" style="height:30px;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about" id="link">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#discover" id="link">Discover</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#share" id="link">Share</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="quiz.html" id="link">Take a Fun Quiz</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="map"></div>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBS3hhEqte4YFtPS1JtD6WQh_Pi_iXRKns&callback=initMap">
+  </script>
+  </body>
+</html>
